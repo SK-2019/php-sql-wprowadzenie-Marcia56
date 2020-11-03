@@ -1,7 +1,3 @@
 <php
-echo("Marta Kowalik);
-
-
-
-
+echo("Marta Kowalik");
 ?>
