@@ -43,5 +43,6 @@ hr{
 }
 
 tr:nth-child(even){background-color:rgb(168, 160, 211);}
-tr:hover{background-color:lavender;
+tr:hover{
+    background-color:lavender;
 }
