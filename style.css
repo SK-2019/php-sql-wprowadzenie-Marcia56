@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-  text-shadow: 5px 5px 5px black;
-  color: white;
-  margin-left: 20px;
+  //text-shadow: 5px 5px 5px black;
+  color: black;
+  margin-left: 30px;
 }
 
 h2 {
