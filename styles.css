@@ -27,6 +27,8 @@ table {
     margin-left: 10px;
 }
 table, th, td{
+    display: flex;
+    justify-content: center;
     border:1px solid #d68fb3;
 }
 th, td{
