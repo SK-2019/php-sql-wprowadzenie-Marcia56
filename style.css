@@ -1,47 +1,38 @@
 body {
-    background-color: rgb(190, 190, 190);
-}
-h2 {
-    color: rgb(172, 57, 57);
-    margin-left: 10px;
-    text-shadow: 0px 1px 1px rgba(59, 59, 59, 0.616);
-    background-color: lavender;
-    font-size: 20px;
-}
-h1{
-    display: flex;
-    justify-content: center;
-    color: rgb(55, 51, 82);
-    font-style: italic;
-    text-shadow: 0px 2px 2px rgba(59, 59, 59, 0.616);
-    background-color: rgb(112, 104, 165);
-}
-h3{
-    color: rgb(55, 51, 82);
-    text-shadow: 0px 1px 1px rgba(59, 59, 59, 0.616);
-}
-table {
-    background-color:rgb(203, 194, 233);
-    margin-left: 10px;
-}
-table, th, td{
-    border:1px solid blue;
-}
-th, td{
-    border-bottom:1px solid rgb(53, 30, 99);
-    border-top:1px solid rgb(53, 30, 99);
-    border-left: 1px solid rgb(53, 30, 99);
-    border-right: 1px solid rgb(53, 30, 99);
-}
-th{
-    background-color: rgb(112, 104, 165);
-    color: rgb(55, 51, 82);
-    text-shadow: 0px 1px 1px rgba(59, 59, 59, 0.616);
-}
-hr{
-    border: 1px solid rgb(53, 30, 99);
+  background-color: #ffcccc;
 }
 
-tr:nth-child(even){background-color:rgb(168, 160, 211);}
-tr:hover{background-color:lavender;
+h1 {
+  text-shadow: 5px 5px 5px black;
+  color: white;
+  margin-left: 20px;
+}
+
+h2 {
+  color: teal;
+  margin-left: 20px;
+}
+
+h2 { 
+  font-style: italic; 
+}
+
+table{
+    background-color:#cc99ff;
+}
+
+th{
+
+    background-color:#ffcc99;
+}
+
+tr:nth-child(even){background-color:#00cccc;}
+tr:hover{background-color:#ffcc99;}
+
+.obraz {
+    height: 250px;
+    width: 400px;
+    top: 20%;
+    left: 40%;
+    position: absolute;
 }
