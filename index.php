@@ -3,19 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marcia Kowalik</title>
+        <title>Karolina Zatylny 2Ti</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
 <div class="nav"
 <h3>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
+    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-karolinazatylny"><b>GITHUB | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
     <a href="pracownicy.php"><b>PRACOWNICY</b></a>
 </h3>
 </div>
-<h1>Marta Kowalik</h1>
+<h1>✿ Karolina Zatylny ✿</h1>
 <hr>
 
 <?php
