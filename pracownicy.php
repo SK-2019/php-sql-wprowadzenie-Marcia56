@@ -20,7 +20,7 @@
 <?php
 
     require("connect.php");
-    echo("<h2>ZADANIE 1: SELECT * FROM pracownicy, organizacja WHERE dzial=2</h2>");
+    echo("<h2>ZADANIE 1: Pracownicy dział 2</h2>");
     $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE dzial=2');
         echo("<table border=1>");
         echo("<th>Imie</th>");
@@ -34,8 +34,8 @@
 
         echo("</table>");
     require("connect.php");
-    echo("<h2>ZADANIE 2: SELECT * FROM pracownicy, organizacja where (dzial=1 or dzial=2)</h2>");  
-    $result = $conn->query('SELECT * FROM pracownicy, organizacja where (dzial=1 or dzial=2)'); 
+    echo("<h2>ZADANIE 2: Pracownicy dział 2 i 3</h2>");  
+    $result = $conn->query('SELECT * FROM pracownicy, organizacja where (dzial=2 or dzial=3)'); 
     echo("<table border=1>");
     echo("<th>Imie</th>");
     echo("<th>Dział</th>");
@@ -49,7 +49,7 @@
 
         echo("</table>");
     require("connect.php");
-    echo("<h2>ZADANIE 3: SELECT * FROM pracownicy, organizacja WHERE zarobki<30</h2>");  
+    echo("<h2>ZADANIE 3: Pracownicy zarabiający mniej niż 30</h2>");  
     $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE zarobki<30'); 
         echo("<table border=1>");
         echo("<th>Imie</th>");
