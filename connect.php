@@ -1,16 +1,7 @@
 <?php
-
-$servername = "marciak.alwaysdata.net";
-$username = "marciak";
-$password = "haslo123";
-$dbanme = "marciak_db1";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
+$conn= new mysqli('mysql-marciak.alwaysdata.net','marciak','haslo123','marciak_db1');
 if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+    die("connection failed: ".mysqli_connect_error());
 
+}
 ?>
