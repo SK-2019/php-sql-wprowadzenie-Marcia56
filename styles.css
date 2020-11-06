@@ -27,8 +27,6 @@ table {
     margin-left: 10px;
 }
 table, th, td{
-    display: flex;
-    justify-content: center;
     border:1px solid #d68fb3;
 }
 th, td{
@@ -38,6 +36,8 @@ th, td{
     border-right: 1px solid #d68fb3;
 }
 th{
+    display: flex;
+    justify-content: center;
     background-color: #ce7ea7;
     color: #250e1a;
     text-shadow: 0px 1px 1px rgba(59, 59, 59, 0.616);
