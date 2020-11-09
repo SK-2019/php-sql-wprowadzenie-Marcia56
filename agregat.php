@@ -15,7 +15,7 @@
     <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
     <a href="dataiczas.php"><b>DATA I CZAS</b></a> 
 </h3>
-<h1>༶•┈┈⛧┈♛Marta Kowalik♛┈⛧┈┈•</h1>
+<h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
 <hr>
 
 <?php
