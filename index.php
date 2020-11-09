@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marcia Kowalik halo dzien dobry</title>
+        <title>Marcia Kowalik</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
@@ -12,10 +12,11 @@
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
-    <a href="pracownicy.php"><b>PRACOWNICY</b></a>
+    <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
+    <a href="dataiczas.php"><b>DATA I CZAS</b></a> 
 </h3>
 </div>
-<h1>Marta Kowalik</h1>
+<h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
 <hr>
 
 <?php

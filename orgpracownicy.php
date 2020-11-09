@@ -12,9 +12,10 @@
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
-    <a href="pracownicy.php"><b>PRACOWNICY</b></a>
+    <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
+    <a href="dataiczas.php"><b>DATA I CZAS</b></a> 
 </h3>
-<h1>✰Marta Kowalik✰</h1>
+<h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
 <hr>
 
 <?php
@@ -153,6 +154,57 @@
                 while($row=$result->fetch_assoc()){ 
                     echo("<tr>");
                     echo("<td>".$row["imie"]."</td><td>".$row["zarobki"]."</td><td>".$row["nazwa_dzial"]."</td>"); 
+                    echo("</tr>");
+                }
+    
+            echo("</table>");
+            require("connect.php");
+        echo("<h2>ZADANIE 10: SELECT * FROM pracownicy, organizacja WHERE dzial=id_org AND dzial=4 order by zarobki desc limit 2</h2>");
+        $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE dzial=id_org AND dzial=4 order by zarobki desc limit 2'); 
+            echo("<table border=1>");
+            echo("<th>Id</th>");
+            echo("<th>Imie</th>");
+            echo("<th>Dział</th>");
+            echo("<th>Nazwa_działu</th>");
+            echo("<th>Zarobki</th>");
+            echo("<th>Data_urodzenia</th>");
+                while($row=$result->fetch_assoc()){ 
+                    echo("<tr>");
+                    echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["dzial"]."</td><td>".$row["nazwa_dzial"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td>"); 
+                    echo("</tr>");
+                }
+    
+            echo("</table>");
+            require("connect.php");
+        echo("<h2>ZADANIE 11: SELECT * FROM pracownicy, organizacja WHERE dzial=id_org AND (dzial=4 or dzial=2) order by zarobki desc limit 3</h2>");
+        $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE dzial=id_org AND (dzial=4 or dzial=2) order by zarobki desc limit 3'); 
+            echo("<table border=1>");
+            echo("<th>Id</th>");
+            echo("<th>Imie</th>");
+            echo("<th>Dział</th>");
+            echo("<th>Nazwa_działu</th>");
+            echo("<th>Zarobki</th>");
+            echo("<th>Data_urodzenia</th>");
+                while($row=$result->fetch_assoc()){ 
+                    echo("<tr>");
+                    echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["dzial"]."</td><td>".$row["nazwa_dzial"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td>"); 
+                    echo("</tr>");
+                }
+    
+            echo("</table>");
+            require("connect.php");
+        echo("<h2>ZADANIE 12: SELECT * FROM pracownicy, organizacja WHERE dzial=id_org order by data_urodzenia asc limit 1</h2>");
+        $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE dzial=id_org order by data_urodzenia asc limit 1'); 
+            echo("<table border=1>");
+            echo("<th>Id</th>");
+            echo("<th>Imie</th>");
+            echo("<th>Dział</th>");
+            echo("<th>Nazwa_działu</th>");
+            echo("<th>Zarobki</th>");
+            echo("<th>Data_urodzenia</th>");
+                while($row=$result->fetch_assoc()){ 
+                    echo("<tr>");
+                    echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["dzial"]."</td><td>".$row["nazwa_dzial"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td>"); 
                     echo("</tr>");
                 }
     
