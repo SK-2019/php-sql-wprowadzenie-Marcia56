@@ -26,7 +26,7 @@
            echo("<th>Id</th>");
            echo("<th>Imie</th>");
            echo("<th>Dział</th>");
-           echo("<th>Nazwa_Działu</th>");
+           echo("<th>Nazwa_działu</th>");
            echo("<th>Zarobki</th>");
            echo("<th>Data_urodzenia</th>");
            echo("<th>Wiek</th>");
@@ -44,7 +44,7 @@
                echo("<th>Id</th>");
                echo("<th>Imie</th>");
                echo("<th>Dział</th>");
-               echo("<th>Nazwa_Działu</th>");
+               echo("<th>Nazwa_działu</th>");
                echo("<th>Zarobki</th>");
                echo("<th>Data_urodzenia</th>");
                echo("<th>Wiek</th>");
@@ -56,22 +56,16 @@
        
                echo("</table>");
     
-    require("connect.php");
-       echo("<h2>ZADANIE 3: SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as Lata from pracownicy;</h2>");
-       $result = $conn->query('SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as Lata from pracownicy;');
-           echo("<table border=1>");
-           echo("<th>Id</th>");
-           echo("<th>Imie</th>");
-           echo("<th>Dział</th>");
-           echo("<th>Nazwa_Działu</th>");
-           echo("<th>Zarobki</th>");
-           echo("<th>Data_urodzenia</th>");
-           echo("<th>Wiek</th>");
-               while($row=$result->fetch_assoc()){ 
-                   echo("<tr>");
-                   echo("<td>".$row["id_pracownicy"]."</td><td>".$row["imie"]."</td><td>".$row["dzial"]."</td><td>".$row["nazwa_dzial"]."</td><td>".$row["zarobki"]."</td><td>".$row["data_urodzenia"]."</td><td>".$row["wiek"]."</td>");                    
-                   echo("</tr>");
-               }
+    echo("</table>");
+        require("connect.php");
+        echo("<h2>ZADANIE 3: SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as SumaLat from pracownicy</h2>");
+        $result = $conn->query('SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as SumaLat from pracownicy'); 
+            echo("<table border=1>");
+            echo("<th>Suma_lat</th>");
+                while($row=$result->fetch_assoc()){ 
+                    echo("<tr>");
+                        echo("<td>".$row["sz"]."</td>");
+                    echo("</tr>");
  
 
 ?>
