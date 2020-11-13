@@ -55,17 +55,6 @@
                    }
        
                echo("</table>");
-    
-    echo("</table>");
-        require("connect.php");
-        echo("<h2>ZADANIE 3: SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as SumaLat from pracownicy</h2>");
-        $result = $conn->query('SELECT SUM(YEAR(CURDATE()) - YEAR(data_urodzenia)) as SumaLat from pracownicy'); 
-            echo("<table border=1>");
-            echo("<th>Suma_lat</th>");
-                while($row=$result->fetch_assoc()){ 
-                    echo("<tr>");
-                        echo("<td>".$row["sz"]."</td>");
-                    echo("</tr>");
  
 
 ?>
