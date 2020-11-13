@@ -24,7 +24,7 @@
     echo("<h2>ZADANIE 1: SELECT sum(zarobki) as suma_zarobkow FROM pracownicy</h2>");
     $result = $conn->query('SELECT sum(zarobki) as sz FROM pracownicy'); 
         echo("<table border=1>");
-        echo("<th>Suma_Zarobków</th>");
+        echo("<th>Suma_zarobków</th>");
             while($row=$result->fetch_assoc()){ 
                 echo("<tr>");
                     echo("<td>".$row["sz"]."</td>");
@@ -38,7 +38,7 @@
         echo("<h2>ZADANIE 2: SELECT sum(zarobki) as suma_zarobki FROM pracownicy WHERE imie like '%a'</h2>");
         $result = $conn->query('SELECT sum(zarobki) as sz FROM pracownicy WHERE imie like "%a"'); 
             echo("<table border=1>");
-            echo("<th>Suma_Zarobków</th>");
+            echo("<th>Suma_zarobków</th>");
                 while($row=$result->fetch_assoc()){ 
                     echo("<tr>");
                         echo("<td>".$row["sz"]."</td>");
