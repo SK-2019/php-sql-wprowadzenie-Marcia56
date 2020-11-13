@@ -121,7 +121,51 @@
                  }
          echo("</table>");
 
-?>
+         require("connect.php");
+         $sql='SELECT dzial, sum(YEAR(CURDATE()) - YEAR(data_urodzenia)) as suma, nazwa_dzial FROM pracownicy, organizacja WHERE dzial=id_org group by dzial';
+           echo("<h2>ZADANIE 8: $sql</h2>");
+           $result = $conn->query($sql);
+               echo("<table border>");
+               echo("<th>Dział</th>");
+               echo("<th>Suma_wiek</th>");
+               echo("<th>Nazwa_działu</th>");
+                   while($row=$result->fetch_assoc()){ 
+                       echo("<tr>");
+                       echo("<td>".$row["dzial"]."</td><td>".$row["suma"]."</td><td>".$row["nazwa_dzial"]."</td>");                    
+                       echo("</tr>");
+                  }
+          echo("</table>");
 
+          require("connect.php");
+         $sql='SELECT dzial, max(YEAR(CURDATE()) - YEAR(data_urodzenia)) as max, nazwa_dzial FROM pracownicy, organizacja WHERE dzial=id_org group by dzial';
+           echo("<h2>ZADANIE 9: $sql</h2>");
+           $result = $conn->query($sql);
+               echo("<table border>");
+               echo("<th>Dział</th>");
+               echo("<th>Wiek_najstarsi</th>");
+               echo("<th>Nazwa_działu</th>");
+                   while($row=$result->fetch_assoc()){ 
+                       echo("<tr>");
+                       echo("<td>".$row["dzial"]."</td><td>".$row["max"]."</td><td>".$row["nazwa_dzial"]."</td>");                    
+                       echo("</tr>");
+                  }
+          echo("</table>");
+
+          require("connect.php");
+          $sql='SELECT min(YEAR(CURDATE()) - YEAR(data_urodzenia)) as min, nazwa_dzial FROM pracownicy, organizacja WHERE dzial=id_org AND (nazwa_dzial="handel" OR nazwa_dzial="serwis" group by dzial';
+            echo("<h2>ZADANIE 10: $sql</h2>");
+            $result = $conn->query($sql);
+                echo("<table border>");
+                echo("<th>Wiek_najmłodsi</th>");
+                echo("<th>Nazwa_działu</th>");
+                  while($row=$result->fetch_assoc()){
+                      echo("<tr>");
+                        echo("<td>".$row['min']."</td><td>".$row['nazwa_dzial']."</td>");
+                        echo("</tr>");
+                  }
+            echo("</table>");
+     
+
+?>
 </body>
 </html>
