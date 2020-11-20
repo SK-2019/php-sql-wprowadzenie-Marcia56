@@ -14,6 +14,7 @@
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
     <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
     <a href="dataiczas.php"><b>DATA I CZAS</b></a> 
+    <a href="formularz.html"><b>FORMULARZ | </b></a>
 </h3>
 </div>
 <h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
