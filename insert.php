@@ -3,10 +3,14 @@
 require("connect.php");
 
 $sql = "INSERT INTO Pracownik (null, imie, dzial, zarobki) 
-       VALUES (null,'Ksawery', 3, 36,'1995-10-21')";
+       VALUES (null,'Balbina', 4, 86,'1999-05-21')";
 
-//zapisanie do bazy danych
-$conn->query($sql);
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+//informacja o ewentualnych błędach
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
 $conn->close();
 ?>
