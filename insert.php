@@ -7,19 +7,16 @@ echo "<li>". $_POST['data_urodzenia'];
 
 require("connect.php");
 
-//definiujemy zapytanie $sql
-$sql = "INSERT INTO Pracownik (null, name, dzial,zarobki,data_urodzenia)
-	      VALUES (
-					null,". 
-					$_POST['name'], 
-					$_POST['dzial'], 
-					$_POST['zarobki'],
-					$_POST['data_urodzenia']
-				;
 
-//wyświetlamy zapytanie $sql
-echo "<li>". $sql;
 
+$sql = "INSERT INTO Pracownik (id,imie, dzial, zarobki) 
+       VALUES (null,".$_POST['name'].", 1, 76,'1991-11-21')";
+
+//wyświetlenie zapytania sql
+echo "<li>".$sql;
+
+
+//obsługa błędów zapisu do bazy
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
 } else {
