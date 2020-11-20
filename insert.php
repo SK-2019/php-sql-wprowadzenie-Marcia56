@@ -9,7 +9,7 @@ require("connect.php");
 
 
 
-$sql = "INSERT INTO Pracownik (id,imie, dzial, zarobki) 
+$sql = "INSERT INTO Pracownik (id,imie, dzial, zarobki, data_urodzenia) 
        VALUES (null,'".$_POST['name']."', 1, 76,'1991-11-21')";
 
 //wyświetlenie zapytania sql
