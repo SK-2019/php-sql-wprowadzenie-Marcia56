@@ -5,15 +5,7 @@ echo "<li>". $_POST['dzial'];
 echo "<li>". $_POST['zarobki'];
 echo "<li>". $_POST['data_urodzenia'];
 
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+require("connect.php");
 
 //definiujemy zapytanie $sql
 $sql = "INSERT INTO Pracownik (null, name, dzial,zarobki,data_urodzenia)
