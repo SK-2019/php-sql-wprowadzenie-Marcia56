@@ -10,7 +10,7 @@ require("connect.php");
 
 
 $sql = "INSERT INTO Pracownik (id,imie, dzial, zarobki) 
-       VALUES (null,'".$_POST['name'].",' 1, 76,'1991-11-21')";
+       VALUES (null,'".$_POST['name']."', 1, 76,'1991-11-21')";
 
 //wyświetlenie zapytania sql
 echo "<li>".$sql;
