@@ -54,18 +54,4 @@ tr:hover{
     background:black;
     height: 40px;
 }
-.link{
-    text-decoration: none;
-    padding:1rem;
-    background: #381527;
-    color:#eac8d9;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-}
-.link:hover{background-color:#511f38;}
-.item{
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-}
+
