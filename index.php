@@ -9,8 +9,8 @@
 <body>
 <div class="nav"
 <h3>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
-    <a href="index.php"><b>INDEX | </b></a>
+    <a class="link" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
+    <a class="link" href="index.php"><b>INDEX | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
     <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
