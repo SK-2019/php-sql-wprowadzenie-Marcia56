@@ -8,7 +8,7 @@
     </head>
 <body>
 <div class="nav"
-<h3>
+
     <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
     <a href="index.php"><b>INDEX | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
@@ -17,7 +17,7 @@
     <a href="dataiczas.php"><b>DATA I CZAS |</b></a>
     <a href="formularz.html"><b>FORMULARZ |</b></a>
     
-</h3>
+<h3></h3>
 </div>
 <h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
 <hr>
