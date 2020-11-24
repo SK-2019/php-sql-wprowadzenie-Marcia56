@@ -46,3 +46,11 @@ tr:nth-child(even){background-color:#f8ecf2;}
 tr:hover{
     background-color:#eac8d9;
 }
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:100vw;
+    background:black;
+    height: 40px;
+}
