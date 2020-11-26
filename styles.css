@@ -47,15 +47,3 @@ tr:hover{
     background-color:#eac8d9;
 }
 
-.nav{
-    display:flex;
-    justify-content: space-around;
-    width:100vw;
-    background:#70284c;
-    height: 40px;
-}
-.linki{
-
-color: #f1dae6;
-
-}
