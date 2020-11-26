@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 <body>
-<div class="nav"
+<div class="nav">
 <h3>
     <a id="linki" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
     <a href="index.php"><b>INDEX | </b></a>
