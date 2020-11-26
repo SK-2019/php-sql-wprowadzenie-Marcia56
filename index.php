@@ -9,7 +9,7 @@
 <body>
 
 <h3>
-    <a id="linki" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
+    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
     <a href="index.php"><b>INDEX | </b></a>
     <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
     <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
