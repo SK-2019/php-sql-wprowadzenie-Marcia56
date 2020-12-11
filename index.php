@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Static Template</title>
+    <title>Marcia</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -24,10 +24,6 @@
           <a class="link" href="formularz.html"><b>FORMULARZ</b></a>
           <a class="link" href="ksiazki.html"><b>KSIAZKI</b></a>
         
-
-
-
-
       </div>
       <div class="item color3">
           
