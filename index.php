@@ -29,7 +29,7 @@
           
         <div class="tresc">
           
-          <div class="costam"> aaaaaaaaa</div>
+          <div class="costam"> Strona główna</div>
           <?php
 
           require("connect.php");
