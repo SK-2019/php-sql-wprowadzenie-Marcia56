@@ -29,7 +29,7 @@
           
         <div class="tresc">
           
-          <div class="costam"> Pracownicy </div>
+          <div class="costam"> Organizacja i pracownicy </div>
           <?php
 require("connect.php");
     echo("<h2>ZADANIE 1: SELECT imie, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org</h2>");
