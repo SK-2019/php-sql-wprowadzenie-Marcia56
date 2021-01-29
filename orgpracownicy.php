@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Marcia Kowalik</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-<body>
-
-<h3>
-    <a href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB | </b></a>
-    <a href="index.php"><b>INDEX | </b></a>
-    <a href="agregat.php"><b>FUNKCJE AGREGUJĄCE | </b></a>
-    <a href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY | </b></a>
-    <a href="pracownicy.php"><b>PRACOWNICY | </b></a>
-    <a href="dataiczas.php"><b>DATA I CZAS |</b></a>
-    <a href="formularz.html"><b>FORMULARZ |</b></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Marcia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     
-</h3>
-<h1>✧༺♥༻∞Marta Kowalik∞༺♥༻✧</h1>
-<hr>
+    <div class="container">
+      <div class="item banner">
+        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+      </div>
+      <div class="item menu">
 
-<?php
-
-    require("connect.php");
+          <a class="link" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB</b></a>
+          <a class="link" href="index.php"><b>INDEX</b></a>
+          <a class="link" href="agregat.php"><b>FUNKCJE AGREGUJĄCE</b></a>
+          <a class="link" href="orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY</b></a>
+          <a class="link" href="pracownicy.php"><b>PRACOWNICY</b></a>
+          <a class="link" href="dataiczas.php"><b>DATA I CZAS</b></a>
+          <a class="link" href="formularz.html"><b>FORMULARZ</b></a>
+          <a class="link" href="ksiazki.html"><b>KSIAZKI</b></a>
+        
+      </div>
+      <div class="item color3">
+          
+        <div class="tresc">
+          
+          <div class="costam"> Pracownicy </div>
+          <?php
+require("connect.php");
     echo("<h2>ZADANIE 1: SELECT imie, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org</h2>");
     $result = $conn->query('SELECT imie, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org');
         echo("<table border=1>");
@@ -212,8 +220,30 @@
                 }
     
             echo("</table>");
+       
+      ?>        
 
-?>
-    
-</body>
-</html>
+
+
+
+        
+        </div>
+
+
+
+
+
+      </div>
+      <div class="item palacz">
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+  </body>
