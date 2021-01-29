@@ -29,7 +29,7 @@
           
         <div class="tresc">
           
-          <div class="costam"> Organizacja i pracownicy </div>
+          <div class="costam"> Data i czas </div>
  <?php
        require("connect.php");
        $sql='SELECT *, YEAR(curdate())-YEAR(data_urodzenia) as wiek FROM pracownicy, organizacja WHERE dzial=id_org';
