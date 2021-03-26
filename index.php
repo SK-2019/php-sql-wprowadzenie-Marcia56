@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="favicon.ico">
     <title>Marta Kowalik</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="inne/styles.css" />
   </head>
   <body>
     
