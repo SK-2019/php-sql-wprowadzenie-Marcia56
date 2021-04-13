@@ -15,6 +15,14 @@ background-color: #AE6E6E;
   margin-top:16px;
 }
 
+.nav {
+    background-color:  #0D0D0D;
+    padding: 2px;
+    list-style: none;
+    width: 20%;
+    height: 30%;
+  }
+
 .container {
   
   display: flex;
