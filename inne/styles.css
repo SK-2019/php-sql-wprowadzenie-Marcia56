@@ -18,7 +18,7 @@ background-color: #AE6E6E;
 .linka{
     padding:10px;
     text-decoration: none;
-    background:yellow;
+    background:red;
 }
 .con{
     height: 100vh;
@@ -34,12 +34,7 @@ background-color: #AE6E6E;
     height:150px;
     background:rgb(255, 153, 153);
 }
-.kwa{
-    height: 75px;
-    width: 75px;
-    background:rgb(217, 179, 255);
-    margin:8px;
-}
+
 .pros{
     height: 75px;
     width: 130px;
@@ -64,7 +59,7 @@ background-color: #AE6E6E;
 .container2 {
     background-color: white;
     width: 50%;
-    height: 200px;
+    height: 50%;
     margin: 10px;
     display: flex;
     justify-content: flex-end;
