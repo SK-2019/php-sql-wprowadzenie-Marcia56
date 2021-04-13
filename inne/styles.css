@@ -26,14 +26,17 @@ background-color: #AE6E6E;
     margin: 10px;
   }
 .container {
+   
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2 {
     background-color: white;
     width: 50%;
     height: 200px;
     margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
+    display: flex;
+    justify-content: flex-end;
 
 }
 .item {
