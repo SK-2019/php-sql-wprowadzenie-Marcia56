@@ -24,6 +24,7 @@
           <a class="link" href="pracownicy/dataiczas.php"><b>DATA I CZAS</b></a>
           <a class="link" href="formularz/formularz.html"><b>FORMULARZ</b></a>
           <a class="link" href="biblioteka/ksiazki.html"><b>KSIAZKI</b></a>
+          <a class="link" href="flexbox/flexbox.html"><b>FLEXBOX</b></a>
         
       </div>
       <div class="item color3">
