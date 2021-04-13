@@ -15,6 +15,37 @@ background-color: #AE6E6E;
   margin-top:16px;
 }
 
+.linka{
+    padding:10px;
+    text-decoration: none;
+    background:yellow;
+}
+.con{
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.item{
+    display:flex;
+    width:200px;
+    height:150px;
+    background:rgb(255, 153, 153);
+}
+.kwa{
+    height: 75px;
+    width: 75px;
+    background:rgb(217, 179, 255);
+    margin:8px;
+}
+.pros{
+    height: 75px;
+    width: 130px;
+    background: rgb(0, 204, 204);
+    margin:8px;
+}
 .nav {
     background-color:  red;
     padding: 2px;
