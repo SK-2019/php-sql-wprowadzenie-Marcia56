@@ -15,70 +15,15 @@ background-color: #AE6E6E;
   margin-top:16px;
 }
 
-.linka{
-    padding:10px;
-    text-decoration: none;
-    background:red;
-}
-.con{
-    height: 100vh;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-}
-.item2{
-    display:flex;
-    width:200px;
-    height:150px;
-    background:rgb(255, 153, 153);
-}
-.menu2 {
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  border-radius: 7px 7px 7px 7px;
-  
-  
-}
-
-.pros{
-    height: 75px;
-    width: 130px;
-    background: rgb(0, 204, 204);
-    margin:8px;
-}
-.nav {
-    background-color:  red;
-    padding: 2px;
-    list-style: none;
-    width: 20%;
-    height: 30%;
-  width: 150px;
-    height: 150px;
-    margin: 10px;
-  }
 .container {
-   
+  
   display: flex;
   flex-wrap: wrap;
-}
-.container2 {
-    background-color: white;
-    width: 50%;
-    height: 50%;
-    margin: 10px;
-    display: flex;
-    justify-content: flex-end;
-
 }
 .item {
   width: 200px;
   height: 100px;
   margin: 10px;
-  display:flex;
-  
 
   
 }
@@ -96,7 +41,6 @@ background-color: #AE6E6E;
   width: 21%;
   height: 100%;
   border-radius: 7px 7px 7px 7px;
-  
   
 }
 .color3 {
