@@ -20,6 +20,15 @@ background-color: #AE6E6E;
   display: flex;
   flex-wrap: wrap;
 }
+.container2{
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
 .item {
   width: 200px;
   height: 100px;
