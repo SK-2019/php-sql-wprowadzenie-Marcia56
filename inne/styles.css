@@ -92,8 +92,6 @@ background-color: #AE6E6E;
 }
 
 .czwarte:hover{
-    transform: translate(50px, 100px);
-    transition:0.7s;
     background: green;
     color: black;
 }
