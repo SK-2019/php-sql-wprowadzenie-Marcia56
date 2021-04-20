@@ -46,8 +46,6 @@ background-color: #AE6E6E;
 .pierwsze:hover{
     padding: 30px;
     background: green;
-    transition: 0.5s;
-    border-style: outset;
     
 }
 
@@ -62,20 +60,19 @@ background-color: #AE6E6E;
     padding:30px;
     background: green;
     width: 50px;
-    transition:1s;
+   
     
 }
 
 .trzecie{
     text-decoration: none;
-    border-style: dashed;
     font-size: 15px;
 }
 
 .trzecie:hover{
     color: white;
     background: green;
-    transition:1s;
+
 }
 
 
