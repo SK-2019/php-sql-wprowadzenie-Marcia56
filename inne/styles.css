@@ -23,9 +23,13 @@ background-color: #AE6E6E;
 .item {
   width: 200px;
   height: 100px;
-  margin: 10px;
-
-  
+  margin: 10px;  
+}
+.prostokat{
+    height:85px;
+    width: 260px;
+    background: khaki;
+    margin: 10px;
 }
 .banner {
   background-color: #0D0D0D;
