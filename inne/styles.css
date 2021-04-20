@@ -49,6 +49,7 @@ background-color: #AE6E6E;
 
 .pierwsze{
     text-decoration: none;
+      padding:15px;
 
 }
 
@@ -64,8 +65,18 @@ background-color: #AE6E6E;
 .trzecie{
     text-decoration: none;
     font-size: 15px;
+      padding:15px;
+
 }
 
+.czwarte{
+    text-decoration: none;
+      padding:15px;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+}
 
 .menu2{
     display:flex;
@@ -74,13 +85,7 @@ background-color: #AE6E6E;
     flex-direction: column;
 }
 
-.czwarte{
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    background: black;
-    color: white;
-}
+
 
 
 .banner {
