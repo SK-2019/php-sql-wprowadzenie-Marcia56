@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico">
     
     <title>Marta Kowalik</title>
@@ -10,7 +9,7 @@
   </head>
   <body>
     
-    <div class="container">
+    <div class="container0">
       <div class="item banner">
         
         <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
@@ -23,11 +22,11 @@
     ?>
 
       </div>
-      <div class="item color3">
+      <div class="item tresczad">
           
         <div class="tresc">
           
-          <div class="costam"> Strona główna</div>
+          <div class="naglowek"> Strona główna</div>
           <?php
 
           require("connect.php");
