@@ -15,15 +15,9 @@
       </div>
       <div class="item menu">
 
-          <a class="link" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik"><b>GITHUB</b></a>
-          <a class="link" href="/index.php"><b>INDEX</b></a>
-          <a class="link" href="../pracownicy/agregat.php"><b>FUNKCJE AGREGUJĄCE</b></a>
-          <a class="link" href="../pracownicy/orgpracownicy.php"><b>ORGANIZACJA I PRACOWNICY</b></a>
-          <a class="link" href="../pracownicy/pracownicy.php"><b>PRACOWNICY</b></a>
-          <a class="link" href="../pracownicy/dataiczas.php"><b>DATA I CZAS</b></a>
-          <a class="link" href="../formularz/formularz.html"><b>FORMULARZ</b></a>
-          <a class="link" href="../biblioteka/ksiazki.html"><b>KSIAZKI</b></a>
-        
+          <?php
+        include("../inne/menu.php");
+    ?>
       </div>
       <div class="item color3">
           
