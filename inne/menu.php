@@ -7,4 +7,4 @@
           <a class="link" href="../formularz/formularz.html">FORMULARZ</a>
           <a class="link" href="../biblioteka/ksiazki.html">KSIAZKI</a>
           <a class="link" href="flexbox/flexbox.html">FLEXBOX</a>
-          <a class-"link" href="https://www.notion.so/SQL-3ccfadeab4b84d7794d7a13966de2547">Notion</a>
+          <a class="link" href="https://www.notion.so/SQL-3ccfadeab4b84d7794d7a13966de2547">Notion</a>
