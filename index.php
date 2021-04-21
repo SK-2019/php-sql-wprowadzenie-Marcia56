@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
     <link rel="shortcut icon" href="favicon.ico">
+    
     <title>Marta Kowalik</title>
     <link rel="stylesheet" href="inne/styles.css" />
   </head>
@@ -12,12 +12,14 @@
     
     <div class="container">
       <div class="item banner">
+        
         <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+        
       </div>
       <div class="item menu">
 
   <?php
-        include("../inne/menu.php");
+        include("inne/menu.php");
     ?>
 
       </div>
