@@ -7,20 +7,22 @@
   </head>
   <body>
     
-    <div class="container">
+    <div class="container0">
       <div class="item banner">
-        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+        <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
         <?php
-        include("inne/menu.php");
+        include("../inne/menu.php");
     ?>
       </div>
-      <div class="item color3">
+      <div class="item tresczad">
           
         <div class="tresc">
           
-          <div class="costam"> Data i czas </div>
+          <div class="naglowek"> Data i czas </div>
  <?php
        require_once("../connect.php");
        $sql='SELECT *, YEAR(curdate())-YEAR(data_urodzenia) as wiek FROM pracownicy, organizacja WHERE dzial=id_org';

@@ -9,22 +9,24 @@
   </head>
   <body>
     
-    <div class="container">
+  <div class="container0">
       <div class="item banner">
-        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+        <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
-
-           <?php
+        <?php
         include("../inne/menu.php");
     ?>
+      
         
       </div>
       <div class="item color3">
           
         <div class="tresc">
           
-          <div class="costam"> Książki </div>
+          <div class="naglowek"> Książki </div>
     kiedys ksiazki tu beda i autorzy
 
 

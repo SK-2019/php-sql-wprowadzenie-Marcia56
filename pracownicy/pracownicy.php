@@ -9,7 +9,7 @@
   </head>
   <body>
     
-    <div class="container">
+    <div class="container0">
       <div class="item banner">
         <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
       </div>
@@ -19,14 +19,14 @@
         include("../inne/menu.php");
     ?>
       </div>
-      <div class="item color3">
+      <div class="item tresczad">
           
         <div class="tresc">
           
-          <div class="costam"> Pracownicy </div>
+          <div class="naglowek"> Pracownicy </div>
       <?php
 
-    require("connect.php");
+    require_once("../connect.php");
     echo("<h2>ZADANIE 1: SELECT * FROM pracownicy, organizacja WHERE dzial=2</h2>");
     $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE dzial=2 AND dzial=id_org');
         echo("<table border=1>");
@@ -42,7 +42,6 @@
             }
 
         echo("</table>");
-    require("connect.php");
     echo("<h2>ZADANIE 2: SELECT * FROM pracownicy, organizacja where (dzial=1 or dzial=2)</h2>");  
     $result = $conn->query('SELECT * FROM pracownicy, organizacja where dzial=id_org AND (dzial=1 or dzial=2)'); 
         echo("<table border=1>");
@@ -59,7 +58,6 @@
     
 
         echo("</table>");
-    require("connect.php");
     echo("<h2>ZADANIE 3: SELECT * FROM pracownicy, organizacja WHERE zarobki<30</h2>");  
     $result = $conn->query('SELECT * FROM pracownicy, organizacja WHERE zarobki<30 AND dzial=id_org'); 
         echo("<table border=1>");
