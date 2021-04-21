@@ -16,7 +16,7 @@
       <div class="item menu">
 
          <?php
-        include("inne/menu.php");
+        include("../inne/menu.php");
     ?>
         
       </div>
