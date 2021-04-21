@@ -132,13 +132,13 @@ tr:hover {
 
 /* flexboxy */
 .container{
-  background-color: blueviolet;
+  background-color: #6a2247;
       width: 25%;
       height: 100px;
       margin: 10px;
   }
   .container2 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -147,7 +147,7 @@ tr:hover {
   }
   
   .container3 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -156,7 +156,7 @@ tr:hover {
   }
   
   .container4 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -166,7 +166,7 @@ tr:hover {
   }
   
   .container5 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -175,7 +175,7 @@ tr:hover {
   }
   
   .container6 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -185,7 +185,7 @@ tr:hover {
   }
   
   .container7 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -195,7 +195,7 @@ tr:hover {
   }
   
   .container8 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -203,7 +203,7 @@ tr:hover {
   }
   
   .container9 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px ;   
     margin: 10px;
@@ -212,7 +212,7 @@ tr:hover {
   }
   
   .container10 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;    
     margin: 10px;
@@ -222,7 +222,7 @@ tr:hover {
   }
   
   .container11 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -232,7 +232,7 @@ tr:hover {
   }
   
   .container12 {
-    background-color: blueviolet;
+    background-color: #6a2247;
     width: 25%;
     height: 100px;
     margin: 10px;
@@ -240,14 +240,14 @@ tr:hover {
   }
   
   .kwadrat {
-    background-color: chartreuse;
+    background-color: #dfadbd;
     width: 40px;
     height: 40px;
     margin: 5px;
   }
   
   .prostokat {
-    background-color: chartreuse;
+    background-color: #dfadbd;
     width: 90px;
     height: 50px;
     margin: 10px;
