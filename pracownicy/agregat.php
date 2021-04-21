@@ -33,7 +33,7 @@
           <?php
 
           
-    require("connect.php");
+    require("../connect.php");
     echo("<h2>ZADANIE 1: SELECT sum(zarobki) as suma_zarobkow FROM pracownicy</h2>");
     $result = $conn->query('SELECT sum(zarobki) as sz FROM pracownicy'); 
         echo("<table border=1>");
