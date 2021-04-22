@@ -1,7 +1,7 @@
           <a class="link" href="https://github.com/SK-2019/php-sql-wprowadzenie-Marta-Kowalik">GITHUB<img class="obrazek" src="../hk1.gif"></a>
           <a class="link" href="/index.php">INDEX<img class="obrazek" src="../hk1.gif"></a>
           <a class="link" href="../pracownicy/agregat.php">FUNKCJE AGREGUJĄCE<img class="obrazek" src="../hk1.gif"></a>
-          <a class="link" href="../pracownicy/orgpracownicy.php">ORGANIZACJA I <img class="obrazek" src="../hk1.gif">PRACOWNICY</a>
+          <a class="link" href="../pracownicy/orgpracownicy.php">ORGANIZACJA I PRACOWNICY<img class="obrazek" src="../hk1.gif"></a>
           <a class="link" href="../pracownicy/pracownicy.php">PRACOWNICY<img class="obrazek" src="../hk1.gif"></a>
           <a class="link" href="../pracownicy/dataiczas.php">DATA I CZAS<img class="obrazek" src="../hk1.gif"></a>
           <a class="link" href="../formularz/formularz.html">FORMULARZ<img class="obrazek" src="../hk1.gif"></a>
