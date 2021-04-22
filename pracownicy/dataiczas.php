@@ -164,11 +164,6 @@
       </div>
       <div class="item palacz">
 
-
-
-
-
-
         </div>
 
 

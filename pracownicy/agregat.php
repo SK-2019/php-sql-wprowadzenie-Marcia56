@@ -177,28 +177,10 @@
                     }
       ?>        
 
-
-
-
         
-        </div>
-
-
-
-
+        
+<div class="item palacz"></div>
 
       </div>
-      <div class="item palacz">
-
-
-
-
-
-
-        </div>
-
-
-
-    </div>
   </body>
 </html>
