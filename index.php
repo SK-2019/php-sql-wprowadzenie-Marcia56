@@ -191,7 +191,7 @@
         
         </div>
       </div>
-      <div class="item palacz"></div>
+      <div class="item zdjecie"></div>
 
     </div>
   </body>
