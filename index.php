@@ -29,7 +29,7 @@
           <div class="naglowek"> Strona główna</div>
           <?php
 
-          require("connect.php");
+          require_once("connect.php");
           echo("<h2>ZADANIE 1: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like %a</h2>");
           $result = $conn->query('SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like "%a"');
               echo("<table border=1>");
@@ -45,7 +45,6 @@
                   }
       
               echo("</table>");
-          require("connect.php");
           echo("<h2>ZADANIE 2: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org</h2>");  
           $result = $conn->query('SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org'); 
               echo("<table border=1>");
@@ -61,7 +60,6 @@
                   }
       
               echo("</table>");
-          require("connect.php");
           echo("<h2>ZADANIE 3: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and (dzial=2 or dzial=1)</h2>");  
           $result = $conn->query('SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and (dzial=2 or dzial=1)'); 
               echo("<table border=1>");
@@ -79,7 +77,6 @@
               echo("</table>");
       
               echo("</table>");
-          require("connect.php");
           echo("<h2>ZADANIE 4: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and dzial = 3</h2>");  
           $result = $conn->query('SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and dzial = 3');
               echo("<table border=1>");
@@ -97,7 +94,6 @@
               echo("</table>");
       
               echo("</table>");
-          require("connect.php");
           echo("<h2>ZADANIE 5: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and zarobki>=35</h2>");  
           $result = $conn->query('SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and zarobki>=35'); 
               echo("<table border=1>");
@@ -115,7 +111,6 @@
               echo("</table>");
       
               echo("</table>");
-          require("connect.php");
           echo("<h2>ZADANIE 6: SELECT avg(zarobki) as srednia_zarobkow FROM pracownicy, organizacja WHERE dzial = id_org</h2>");
           $result = $conn->query('SELECT avg(zarobki) as az FROM pracownicy, organizacja WHERE dzial = id_org'); 
               echo("<table border=1>");
@@ -129,7 +124,6 @@
               echo("</table>");
       
               echo("</table>");
-              require("connect.php");
               echo("<h2>ZADANIE 7: SELECT sum(zarobki) as suma_zarobki FROM pracownicy, organizacja WHERE (dzial = id_org) and (zarobki>45)</h2>");
               $result = $conn->query('SELECT sum(zarobki) as sz FROM pracownicy, organizacja WHERE (dzial = id_org) and (zarobki>45)'); 
                   echo("<table border=1>");
@@ -143,7 +137,6 @@
                   echo("</table>");
       
                   echo("</table>");
-              require("connect.php");
               echo("<h2>ZADANIE 8: SELECT count(imie) as liczba_kobiet FROM pracownicy, organizacja WHERE (dzial = id_org and imie like 'a%')</h2>");
               $result = $conn->query('SELECT count(imie) as lk FROM pracownicy, organizacja WHERE (dzial = id_org and imie like "a%")'); 
                   echo("<table border=1>");
@@ -157,7 +150,6 @@
                   echo("</table>");
       
                   echo("</table>");
-              require("connect.php");
               echo("<h2>ZADANIE 9: SELECT count(imie) as liczba_mężczyzn FROM pracownicy, organizacja WHERE (dzial = id_org and imie not like 'a%')</h2>");
               $result = $conn->query('SELECT count(imie) as lm FROM pracownicy, organizacja WHERE (dzial = id_org and imie not like "a%")'); 
                   echo("<table border=1>");
@@ -171,7 +163,6 @@
                   echo("</table>");
       
                   echo("</table>");
-              require("connect.php");
               echo("<h2>ZADANIE 10: SELECT max(zarobki) as max FROM pracownicy, organizacja WHERE (dzial = id_org)</h2>");
               $result = $conn->query('SELECT max(zarobki) as max FROM pracownicy, organizacja WHERE (dzial = id_org)'); 
                   echo("<table border=1>");
