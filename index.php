@@ -24,7 +24,7 @@
           
         <div class="tresc">
           
-          <div class="naglowek"> Data i czas </div>
+          <div class="naglowek"> Strona główna </div>
  <?php
 
           require("connect.php");
