@@ -11,9 +11,9 @@
     
     <div class="container0">
       <div class="item banner">
-        
-        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
-        
+        <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
 
