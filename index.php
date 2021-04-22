@@ -10,9 +10,10 @@
   <body>
     
     <div class="container0">
-      <div class="item banner">
-        
-        
+       <div class="item banner">
+        <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
 
