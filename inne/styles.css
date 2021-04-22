@@ -98,7 +98,7 @@ body {
   
   }
   .zdjecie{
-  background-image: url("../zdj1.jpg");
+  background-image: url("../obrazki/zdj1.jpg");
   width: 300px;
   height: 250px;
   background-size: 100%;
