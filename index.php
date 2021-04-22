@@ -26,7 +26,7 @@
           
         <div class="tresc">
           
-          <div class="naglowek"> Strona główna!!!!</div>
+          <div class="naglowek"> Strona główna</div>
           <?php
 
           require_once("connect.php");
