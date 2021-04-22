@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Marta Kowalik</title>
-    <link rel="stylesheet" href="inne/styles.css" />
+    <link rel="stylesheet" href="../inne/styles.css" />
   </head>
-    <body>
+  <body>
     
-    <div class="container0">
+  <div class="container0">
       <div class="item banner">
         <?php
         include("../header.php");
@@ -19,13 +19,15 @@
         <?php
         include("../inne/menu.php");
     ?>
+      
+        
       </div>
       <div class="item tresczad">
           
         <div class="tresc">
           
           <div class="naglowek"> Strona główna </div>
- <?php
+          <?php
 
           require("connect.php");
           echo("<h2>ZADANIE 1: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like %a</h2>");
