@@ -91,11 +91,11 @@ body {
     color: #252526;
   
   }
-  .palacz{
+  .zdjecie{
   background-image: url("../zdj1.jpg");
   background-size: auto;
-  width: 270px;
-  height: 261px;
+  width: 300px;
+  height: 250px;
   background-size: 100%;
   }
   
