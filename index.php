@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="../obrazki/favicon.ico">
     
     <title>Marta Kowalik</title>
     <link rel="stylesheet" href="inne/styles.css" />
