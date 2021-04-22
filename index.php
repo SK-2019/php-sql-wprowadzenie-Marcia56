@@ -7,9 +7,9 @@
     <title>Marta Kowalik</title>
     <link rel="stylesheet" href="../inne/styles.css" />
   </head>
-  <body>
+    <body>
     
-  <div class="container0">
+    <div class="container0">
       <div class="item banner">
         <?php
         include("../header.php");
@@ -19,14 +19,12 @@
         <?php
         include("../inne/menu.php");
     ?>
-      
-        
       </div>
       <div class="item tresczad">
           
         <div class="tresc">
           
-          <div class="naglowek"> Strona główna </div>
+<div class="naglowek"> Strona główna </div>
           <?php
 
           require("connect.php");
@@ -183,13 +181,31 @@
                       }
           
                   echo("</table>");
-      ?>        
+      ?>     
+
+
+
 
         
         </div>
+
+
+
+
+
       </div>
-      <div class="item palacz"></div>
+      <div class="item zdjecie">
+
+
+
+
+
+
+        </div>
+
+
 
     </div>
   </body>
 </html>
+
