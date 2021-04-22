@@ -11,23 +11,20 @@
     
     <div class="container0">
       <div class="item banner">
-        <?php
-        include("../header.php");
-        ?>
+        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
       </div>
       <div class="item menu">
 
-  <?php
-        include("inne/menu.php");
+          <?php
+        include("../inne/menu.php");
     ?>
-
       </div>
       <div class="item tresczad">
+          
         <div class="tresc">
           
           <div class="naglowek"> Strona główna </div>
-          
-          <?php
+      <?php
 
           require("connect.php");
           echo("<h2>ZADANIE 1: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like %a</h2>");
