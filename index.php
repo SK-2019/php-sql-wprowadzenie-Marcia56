@@ -22,6 +22,7 @@
     ?>
 
       </div>
+      <div class="item zdjecie"></div>
       <div class="item tresczad">
           
         <div class="tresc">
