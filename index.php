@@ -11,20 +11,23 @@
     
     <div class="container0">
       <div class="item banner">
-        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+ <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
 
-          <?php
-        include("../inne/menu.php");
+  <?php
+        include("inne/menu.php");
     ?>
+
       </div>
       <div class="item tresczad">
-          
         <div class="tresc">
           
           <div class="naglowek"> Strona główna </div>
-      <?php
+          
+          <?php
 
           require("connect.php");
           echo("<h2>ZADANIE 1: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like %a</h2>");
@@ -182,13 +185,10 @@
                   echo("</table>");
       ?>        
 
-
-
-
         
         </div>
       </div>
-      <div class="item zdjecie"></div>
+      <div class="item palacz"></div>
 
     </div>
   </body>
