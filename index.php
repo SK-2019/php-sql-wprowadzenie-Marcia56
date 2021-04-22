@@ -187,11 +187,11 @@
 
 
 
-
+<div class="item zdjecie"></div>
         
         </div>
       </div>
-      <div class="item zdjecie"></div>
+      
 
     </div>
   </body>
