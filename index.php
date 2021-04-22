@@ -4,27 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="favicon.ico">
     <title>Marta Kowalik</title>
-    <link rel="stylesheet" href="../inne/styles.css" />
+    <link rel="stylesheet" href="inne/styles.css" />
   </head>
-    <body>
+  <body>
     
-    <div class="container0">
+    <div class="container">
       <div class="item banner">
         <?php
         include("../header.php");
-        ?>
-      </div>
-      <div class="item menu">
-        <?php
-        include("../inne/menu.php");
     ?>
       </div>
-      <div class="item tresczad">
+      <div class="item menu">
+
+  <?php
+        include("../inne/menu.php");
+    ?>
+
+      </div>
+      <div class="item color3">
           
         <div class="tresc">
           
-<div class="naglowek"> Strona główna </div>
+          <div class="costam"> Strona główna</div>
           <?php
 
           require("connect.php");
@@ -181,7 +184,7 @@
                       }
           
                   echo("</table>");
-      ?>     
+      ?>        
 
 
 
@@ -208,4 +211,3 @@
     </div>
   </body>
 </html>
-
