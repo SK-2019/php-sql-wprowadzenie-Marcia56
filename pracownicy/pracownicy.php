@@ -7,15 +7,16 @@
     <title>Marta Kowalik</title>
     <link rel="stylesheet" href="../inne/styles.css" />
   </head>
-  <body>
+    <body>
     
     <div class="container0">
       <div class="item banner">
-        <h1 class="bannertxt">Marta Kowalik 2Ti</h1>
+        <?php
+        include("../header.php");
+        ?>
       </div>
       <div class="item menu">
-
-          <?php
+        <?php
         include("../inne/menu.php");
     ?>
       </div>
@@ -24,7 +25,7 @@
         <div class="tresc">
           
           <div class="naglowek"> Pracownicy </div>
-      <?php
+ <?php
 
     require_once("../connect.php");
     echo("<h2>ZADANIE 1: SELECT * FROM pracownicy, organizacja WHERE dzial=2</h2>");
