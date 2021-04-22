@@ -12,7 +12,7 @@
     <div class="container0">
        <div class="item banner">
           <?php
-        include("../header.php");
+        include("header.php");
         ?>
       </div>
       <div class="item menu">
