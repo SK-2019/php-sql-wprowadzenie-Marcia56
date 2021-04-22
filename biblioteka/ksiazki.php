@@ -39,7 +39,7 @@
 
 
       </div>
-      <div class="item palacz">
+      <div class="item zdjecie">
 
 
 
