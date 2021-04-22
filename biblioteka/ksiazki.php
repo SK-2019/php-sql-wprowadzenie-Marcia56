@@ -27,7 +27,7 @@
         <div class="tresc">
           
           <div class="naglowek"> Książki </div>
-    kiedys ksiazki tu beda i autorzy
+    nie ma
 
 
 
