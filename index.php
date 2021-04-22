@@ -23,10 +23,10 @@
 
       </div>
       <div class="item tresczad">
-          
         <div class="tresc">
           
-          <div class="naglowek"> Strona główna</div>
+          <div class="naglowek"> Strona główna </div>
+          
           <?php
 
           require("connect.php");
