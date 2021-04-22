@@ -7,27 +7,25 @@
     <title>Marta Kowalik</title>
     <link rel="stylesheet" href="inne/styles.css" />
   </head>
-  <body>
+    <body>
     
     <div class="container0">
       <div class="item banner">
- <?php
+        <?php
         include("../header.php");
         ?>
       </div>
       <div class="item menu">
-
-  <?php
-        include("inne/menu.php");
+        <?php
+        include("../inne/menu.php");
     ?>
-
       </div>
       <div class="item tresczad">
+          
         <div class="tresc">
           
-          <div class="naglowek"> Strona główna </div>
-          
-          <?php
+          <div class="naglowek"> Data i czas </div>
+ <?php
 
           require("connect.php");
           echo("<h2>ZADANIE 1: SELECT imie, zarobki, data_urodzenia, nazwa_dzial FROM pracownicy, organizacja WHERE dzial = id_org and imie not like %a</h2>");
