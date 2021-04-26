@@ -9,9 +9,9 @@
     
     <div class="container0">
         <div class="item banner">
-          <?php
-          include("../header.php");
-          ?>
+        <?php
+        include("../inne/header.php");        
+        ?>
         </div>
         <div class="item menu">
           <?php
@@ -109,7 +109,7 @@
 
 
     </div>
-
+    <div class="item palacz"></div>
     </div>
   </body>
 </html>

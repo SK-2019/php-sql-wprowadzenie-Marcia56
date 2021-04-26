@@ -9,8 +9,8 @@
     
     <div class="container0">
       <div class="item banner">
-        <?php
-        include("../header.php");
+      <?php
+        include("../inne/header.php");        
         ?>
       </div>
       <div class="item menu">
@@ -162,9 +162,7 @@
 
 
       </div>
-      <div class="item zdjecie">
-
-        </div>
+      <div class="item zdjecie"></div>
 
 
 
