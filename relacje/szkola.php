@@ -31,7 +31,6 @@
 <?php
 
             require_once("../connect.php");
-                echo("<h1>Szkoła</h1>");
 
                 $sql = ("SELECT * FROM nauczyciel");
                 echo("<h2>".$sql."</h2>");
