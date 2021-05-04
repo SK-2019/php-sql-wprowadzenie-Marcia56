@@ -16,6 +16,21 @@ body {
     color: #D9D9D9; 
     margin-top:16px;
   }
+  .naglowekmenu{
+    /*glowny w stylu menu*/
+    background-color: #5a5a5c;
+    width: 90%;
+    height: 25px;
+    align-items: center;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9; 
+    margin-top:16px;
+    font-weight: bold;
+  }
+  
   
   .container0 {
     
@@ -100,11 +115,35 @@ body {
     font-weight: bold;
   
   }
+  .linkwdw {
+    width: 90%;
+    height: 25%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: #5a5a5c;
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9D9D9; 
+    margin-top:16px;
+    text-decoration: none;
+    font-weight: bold;
+  
+  }
+
   .link:hover{
     background-color: #D9D9D9;
     color: #252526;
   
   }
+  .linkwdw:hover{
+    background-color: #D9D9D9;
+    color: #252526;
+    transition:1s;
+  
+  }
+
+  
   .zdjecie{
   background-image: url("../obrazki/zdj1.jpg");
   width: 300px;
