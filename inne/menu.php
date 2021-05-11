@@ -8,6 +8,7 @@
           <a class="link" href="../biblioteka/ksiazki.php">KSIAZKI<img class="obrazek" src="../obrazki/hk1.gif"></a>
           <a class="link" href="../flexbox/flexbox.php">FLEXBOX<img class="obrazek" src="../obrazki/hk3.gif"></a>
           <a class="link" href="https://www.notion.so/SQL-3ccfadeab4b84d7794d7a13966de2547">NOTION<img class="obrazek" src="../obrazki/hk1.gif"></a>
+          <a class="link" href="../inne/galeria.php">GALERIA<img class="obrazek" src="../obrazki/hk3.gif"></a>
           
           <div class="naglowekmenu">RELACJE: </div>
           <a class="linkwdw test" href="../relacje/szkola.php">SZKOŁA<img class="obrazek" src="../obrazki/hk3.gif"></a>

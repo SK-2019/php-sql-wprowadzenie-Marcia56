@@ -15,13 +15,13 @@
         include("inne/header.php");        
         ?>
       </div>
+      
       <div class="item menu">
-
   <?php
         include("inne/menu.php");
     ?>
-
       </div>
+
       <div class="item tresczad">
           
         <div class="tresc">

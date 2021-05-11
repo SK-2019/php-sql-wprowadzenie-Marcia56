@@ -1,5 +1,12 @@
-h1 {
+h1a {
   background-color: lightblue;
+}
+
+.zawartosc {
+  background-color: none;
+  width: 70%;
+  border-radius: 7px 7px 7px 7px;
+  
 }
 
 .gallery {
@@ -7,11 +14,11 @@ h1 {
 }
 
 .row {
-  background-color: lightcoral;
+  background-color: none;
 }
 
 .image {
-  background-color: lightblue;
+  background-color: none;
   margin: 5px;
   padding: 0px;
   width: 500px;
@@ -26,26 +33,74 @@ h1 {
 
 .image:hover {
   transform: scale(0.98);
-  filter: saturate(2.2) brightness(1.4);
+  filter: brightness(1.4);
 }
 
 .foto01 {
-  background-image: url("https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://i.pinimg.com/564x/65/fd/8f/65fd8fc9da807c6963fbe33147905aad.jpg");
 }
 .foto01:hover {
-  background-image: url("https://images.pexels.com/photos/2967394/pexels-photo-2967394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://i.pinimg.com/564x/65/fd/8f/65fd8fc9da807c6963fbe33147905aad.jpg");
 }
 
 .foto02 {
-  background-image: url("https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://i.pinimg.com/564x/88/3d/94/883d94472d8a8122ab4644b64d883bd2.jpg");
 }
 
 .foto03 {
-  background-image: url("https://images.pexels.com/photos/722629/pexels-photo-722629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://i.pinimg.com/236x/75/b2/75/75b275ebec592cb46aa732b33f393275.jpg");
+}
+.foto04 {
+  background-image: url("https://i.pinimg.com/564x/48/7b/43/487b438414c6ec792380433814a0a372.jpg");
+}
+.foto05 {
+  background-image: url("https://i.pinimg.com/564x/73/2e/91/732e91fc29d20182210a6a281de35605.jpg");
+}
+.foto06 {
+  background-image: url("https://i.pinimg.com/236x/b9/0e/3f/b90e3fc17b9283d3a310c6906689e267.jpg");
+}
+.foto07 {
+  background-image: url("https://i.pinimg.com/564x/ae/88/65/ae8865d3c5f7ba119885188da929d4d3.jpg");
+}
+.foto08 {
+  background-image: url("https://i.pinimg.com/564x/e1/9a/67/e19a67fd6f634d88c085780f7423e1cc.jpg");
+}
+.foto09 {
+  background-image: url("https://i.pinimg.com/564x/4b/9b/55/4b9b551d0f519366db6e5b14a3ba1372.jpg");
+}
+.foto10 {
+  background-image: url("https://i.pinimg.com/564x/d9/4b/3b/d94b3b0862bdc3277a590da076cbfa28.jpg");
+}
+.foto11 {
+  background-image: url("https://i.pinimg.com/236x/bd/14/4b/bd144b870a99b4a454724ecd7b273f0f.jpg");
+}
+.foto12 {
+  background-image: url("https://i.pinimg.com/564x/c8/f6/b4/c8f6b4e060e208c2c66d7267d7a8da15.jpg");
+}
+.foto13 {
+  background-image: url("https://i.pinimg.com/564x/7e/48/c1/7e48c1185b8a7244af96a7880fa74bec.jpg");
+}
+.foto14 {
+  background-image: url("https://i.pinimg.com/564x/34/b2/27/34b227d2660ac8be07604dbe19413458.jpg");
+}
+.foto15 {
+  background-image: url("https://i.pinimg.com/564x/3f/fe/c7/3ffec7bd50320d1b32a755721f800295.jpg");
+}
+.foto16 {
+  background-image: url("https://i.pinimg.com/564x/3b/c9/4c/3bc94c6cb62da67b386599730a40d76a.jpg");
+}
+.foto17 {
+  background-image: url("https://i.pinimg.com/564x/89/1b/1b/891b1bd4bd42410388221dcf66a01f36.jpg");
+}
+.foto18 {
+  background-image: url("https://i.pinimg.com/236x/cb/83/3a/cb833a8e6fc3e0e6eaf424df7c6a0820.jpg");
 }
 
+
+
+
 .foto01_title {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.671);
   padding: 5px;
   display: block;
 }
@@ -53,4 +108,5 @@ h1 {
   background-color: white;
   padding: 5px;
   display: block;
+  
 }
