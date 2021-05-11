@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <title>07-Obrazki</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="styles2.css" />
   </head>
   <body>
     <h1>
