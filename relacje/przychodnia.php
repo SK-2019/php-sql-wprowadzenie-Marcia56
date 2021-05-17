@@ -35,16 +35,19 @@ require_once("../connect.php");
 $sql = ("SELECT * FROM lekarz");
                 echo("<h2>".$sql."</h2>");
                 $result=$conn->query($sql);
+                
                         echo("<table border=1>");
+                        echo("<th>id</th>");
                         echo("<th>lekarz</th>");
-                        echo("<th>delete</th>");
+    
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("</td><td>".$row["lekarz"]."</td><td>
+                                    echo("<td>".$row["id"]."</td><td>".$row["lekarz"]."</td><td>
                                     <form action='delete.php' method='POST'>
                                     <input type='number' name='row' value='".$row["id"]."' hidden>
                                     <input type='text' name='table' value='lekarz' hidden>
+                                    <input type='text' name='column' value='id' hidden>
                                     <input type='submit' value='Usuń'>
                                     </form></td>");
                                 echo("</tr>");
@@ -57,17 +60,17 @@ $sql = ("SELECT * FROM lekarz");
                 $result=$conn->query($sql);
                 
                         echo("<table border=1>");
+                        echo("<th>id</th>");
                         echo("<th>pacjent</th>");
-                        echo("<th>delete</th>");
-
     
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("</td><td>".$row["pacjent"]."</td><td>
+                                    echo("<td>".$row["id"]."</td><td>".$row["pacjent"]."</td><td>
                                     <form action='delete.php' method='POST'>
                                     <input type='number' name='row' value='".$row["id"]."' hidden>
                                     <input type='text' name='table' value='pacjent' hidden>
+                                    <input type='text' name='column' value='id' hidden>
                                     <input type='submit' value='Usuń'>
                                     </form></td>");
                                 echo("</tr>");
@@ -80,17 +83,18 @@ $sql = ("SELECT * FROM lekarz");
                 $result=$conn->query($sql);
                 
                         echo("<table border=1>");
+                        echo("<th>id</th>");
                         echo("<th>lekarz</th>");
                         echo("<th>pacjent</th>");
-                        echo("<th>delete</th>");
-
+    
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
-                                    echo("</td><td>".$row["lekarz"]."</td><td>".$row["pacjent"]."</td><td>
+                                    echo("<td>".$row["id"]."</td><td>".$row["lekarz"]."</td><td>".$row["pacjent"]."</td><td>
                                     <form action='delete.php' method='POST'>
                                     <input type='number' name='row' value='".$row["id"]."' hidden>
                                     <input type='text' name='table' value='lekarz_pacjent' hidden>
+                                    <input type='text' name='column' value='id' hidden>
                                     <input type='submit' value='Usuń'>
                                     </form></td>");
                                 echo("</tr>");
