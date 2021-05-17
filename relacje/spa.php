@@ -32,49 +32,66 @@
 
 require_once("../connect.php");
 
-    $sql = ("SELECT * FROM fryzjer");
-    echo("<h2>".$sql."</h2>");
-    $result=$conn->query($sql);
-            echo("<table border=1>");
-            echo("<th>id</th>");
-            echo("<th>fryzjer</th>");
+$sql = ("SELECT * FROM fryzjer");
+echo("<h2>".$sql."</h2>");
+$result=$conn->query($sql);
+        echo("<table border=1>");
+        echo("<th>fryzjer</th>");
+        echo("<th>delete</th>");
 
-            while($row=$result->fetch_assoc()) {
-                    echo("<tr>");
-                        echo("<td>".$row["id"]."</td><td>".$row["fryzjer"]."</td>");
-                    echo("</tr>");
-                }
-            echo("</table>");
-
-    
-    $sql = ("SELECT * FROM klient");
-    echo("<h2>".$sql."</h2>");
-    $result=$conn->query($sql);
-            echo("<table border=1>");
-            echo("<th>id</th>");
-            echo("<th>klient</th>");
-
-            while($row=$result->fetch_assoc()) {
-                    echo("<tr>");
-                        echo("<td>".$row["id"]."</td><td>".$row["klient"]."</td>");
-                    echo("</tr>");
-                }
-            echo("</table>");
+        while($row=$result->fetch_assoc()) {
+                echo("<tr>");
+                    echo("</td><td>".$row["fryzjer"]."</td><td>
+                    <form action='delete.php' method='POST'>
+                    <input type='number' name='row' value='".$row["id"]."' hidden>
+                    <input type='text' name='table' value='fryzjer' hidden>
+                    <input type='submit' value='Usuń'>
+                    </form></td>");
+                echo("</tr>");
+            }
+        echo("</table>");
 
 
-            $sql = ("SELECT * FROM fryzjer, klient, fryzjer_klient where fryzjer_id = fryzjer.id and klient_id = klient.id");
-            echo("<h2>".$sql."</h2>");
-            $result=$conn->query($sql);
-                    echo("<table border=1>");
-                    echo("<th>fryzjer</th>");
-                    echo("<th>klient</th>");
+$sql = ("SELECT * FROM klient");
+echo("<h2>".$sql."</h2>");
+$result=$conn->query($sql);
+        echo("<table border=1>");
+        echo("<th>klient</th>");
+        echo("<th>delete</th>");
 
-                    while($row=$result->fetch_assoc()) {
-                            echo("<tr>");
-                                echo("<td>".$row["fryzjer"]."</td><td>".$row["klient"]."</td>");
-                            echo("</tr>");
-                        }
-                    echo("</table>");
+
+        while($row=$result->fetch_assoc()) {
+                echo("<tr>");
+                    echo("</td><td>".$row["klient"]."</td><td>
+                    <form action='delete.php' method='POST'>
+                    <input type='number' name='row' value='".$row["id"]."' hidden>
+                    <input type='text' name='table' value='klient' hidden>
+                    <input type='submit' value='Usuń'>
+                    </form></td>");
+                echo("</tr>");
+            }
+        echo("</table>");
+
+
+        $sql = ("SELECT * FROM fryzjer, klient, fryzjer_klient where fryzjer_id = fryzjer.id and klient_id = klient.id");
+        echo("<h2>".$sql."</h2>");
+        $result=$conn->query($sql);
+                echo("<table border=1>");
+                echo("<th>fryzjer</th>");
+                echo("<th>klient</th>");
+                echo("<th>delete</th>");
+
+                while($row=$result->fetch_assoc()) {
+                        echo("<tr>");
+                            echo("</td><td>".$row["fryzjer"]."</td><td>".$row["klient"]."</td><td>
+                            <form action='delete.php' method='POST'>
+                            <input type='number' name='row' value='".$row["id"]."' hidden>
+                            <input type='text' name='table' value='fryzjer_klient' hidden>
+                            <input type='submit' value='Usuń'>
+                            </form></td>");
+                        echo("</tr>");
+                    }
+                echo("</table>");
 
 ?>
 
