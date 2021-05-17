@@ -5,7 +5,7 @@
         $sql = "DELETE  FROM $table WHERE $column = $row";
         echo $sql;
 
-        if ($conn->query($sql) === TRUE) {
+        if ($conn->query($sql) == TRUE) {
           echo ("<h2>Usunięto</h2>");
         } else {
           echo "Error: " . $sql . "<br>" . $conn->error;
