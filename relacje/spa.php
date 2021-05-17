@@ -38,6 +38,7 @@ $sql = ("SELECT * FROM fryzjer");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>fryzjer</th>");
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -59,6 +60,7 @@ $sql = ("SELECT * FROM fryzjer");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>klient</th>");
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -81,7 +83,8 @@ $sql = ("SELECT * FROM fryzjer");
                                 echo("<th>id</th>");
                                 echo("<th>fryzjer</th>");
                                 echo("<th>klient</th>");
-        
+                                echo("<th>delete</th>");
+
                                 while($row=$result->fetch_assoc()) {
                                         echo("<tr>");
                                             echo("<td>".$row["id"]."</td><td>".$row["fryzjer"]."</td><td>".$row["klient"]."</td><td>

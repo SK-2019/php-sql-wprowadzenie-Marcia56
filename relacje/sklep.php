@@ -37,6 +37,7 @@ $sql = ("SELECT * FROM producent");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>producent</th>");
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -58,6 +59,7 @@ $sql = ("SELECT * FROM producent");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>produkt</th>");
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -80,7 +82,8 @@ $sql = ("SELECT * FROM producent");
                                 echo("<th>id</th>");
                                 echo("<th>producent</th>");
                                 echo("<th>produkt</th>");
-        
+                                echo("<th>delete</th>");
+
                                 while($row=$result->fetch_assoc()) {
                                         echo("<tr>");
                                             echo("<td>".$row["id"]."</td><td>".$row["producent"]."</td><td>".$row["produkt"]."</td><td>

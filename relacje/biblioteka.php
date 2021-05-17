@@ -39,7 +39,7 @@ $sql = ("SELECT * FROM autor");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>autor</th>");
-    
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -62,7 +62,7 @@ $sql = ("SELECT * FROM autor");
                         echo("<table border=1>");
                         echo("<th>id</th>");
                         echo("<th>tytul</th>");
-    
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
@@ -86,7 +86,7 @@ $sql = ("SELECT * FROM autor");
                         echo("<th>id</th>");
                         echo("<th>autor</th>");
                         echo("<th>tytul</th>");
-    
+                        echo("<th>delete</th>");
 
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");

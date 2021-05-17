@@ -40,6 +40,7 @@
                         echo("<th>id</th>");
                         echo("<th>nauczyciel</th>");
                         echo("<th>delete</th>");
+
                         while($row=$result->fetch_assoc()) {
                                 echo("<tr>");
                                     echo("<td>".$row["id"]."</td><td>".$row["nauczyciel"]."</td><td>
@@ -83,7 +84,8 @@
                                 echo("<th>id</th>");
                                 echo("<th>klasa</th>");
                                 echo("<th>nauczyciel</th>");
-                                 echo("<th>delete</th>");
+                                echo("<th>delete</th>");
+
                                 while($row=$result->fetch_assoc()) {
                                         echo("<tr>");
                                             echo("<td>".$row["id"]."</td><td>".$row["klasa"]."</td><td>".$row["nauczyciel"]."</td><td>
