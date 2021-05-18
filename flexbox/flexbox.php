@@ -35,9 +35,9 @@
     <div class=" container">
         <div class="prostokat">
         <div class="pierwsze">
-            <div class = "link1">opcja 1</div>
-            <div class = "link1">opcja 2</div>
-            <div class = "link1">opcja 3</div>
+            <div class = "link1">truskawka</div>
+            <div class = "link1">banan</div>
+            <div class = "link1">jabłko</div>
             </div>
         </div>
     </div>
@@ -46,9 +46,9 @@
     <div class="container2">
         <div class="prostokat">
         <div class="pierwsze">
-            <div class = "link2">opcja 4</div>
-            <div class = "link2">opcja 5</div>
-            <div class = "link2">opcja 6</div>
+            <div class = "link2">orzechy</div>
+            <div class = "link2">pomarańcza</div>
+            <div class = "link2">brzoskwinia</div>
             </div>
         </div>
     </div>
@@ -56,9 +56,9 @@
     <div class="container3">
         <div class="prostokat">
         <div class="drugie">
-            <div class = "link3">opcja 7</div>
-            <div class = "link3">opcja 8</div>
-            <div class = "link3">opcja 9</div>
+            <div class = "link3">borówki</div>
+            <div class = "link3">jagody</div>
+            <div class = "link3">poziomki</div>
             </div>
         </div>
     </div>
@@ -66,9 +66,9 @@
     <div class="container4">
         <div class="prostokat">
         <div class="drugie">
-            <div class = "link4">opcja 10</div>
-            <div class = "link4">opcja 11</div>
-            <div class = "link4">opcja 12</div>
+            <div class = "link4">ananas</div>
+            <div class = "link4">papaja</div>
+            <div class = "link4">liczi</div>
             </div>
         </div>
     </div>
