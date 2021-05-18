@@ -214,6 +214,7 @@ body {
       justify-content: space-around;
       align-self: center;
       flex-direction: row;
+      align-items: center;
     }
 
     .drugie{
@@ -221,6 +222,7 @@ body {
       height: 100%;
       width: 100%;
       flex-direction: column;
+      align-items: center;
     }
 
 
