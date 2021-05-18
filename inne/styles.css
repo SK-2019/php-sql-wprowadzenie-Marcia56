@@ -229,6 +229,7 @@ body {
       width: 500px;
       height: 300px;
       justify-content: flex-end;
+      display: flex;
     }
     
     .container3 {
@@ -236,6 +237,7 @@ body {
       background-color: #6a2247;
       width: 500px;
       height: 300px;
+      display: flex;
     }
 
     .container4 {
