@@ -368,8 +368,8 @@ body {
     
     }
     .link2:hover{
-      color: #cfcfcf;
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,1) 19%, rgba(0,212,255,1) 43%, rgba(0,255,102,1) 61%, rgba(0,212,255,1) 88%);
+      color: #cfcbcf;
+      background-color: #9c1f60; 
       height: 100%;
       width: 40%;
       border-style: solid;
