@@ -371,7 +371,7 @@ body {
       color: #cfcfcf;
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,1) 19%, rgba(0,212,255,1) 43%, rgba(0,255,102,1) 61%, rgba(0,212,255,1) 88%);
       height: 100%;
-      width: 45%;
+      width: 40%;
       border-style: solid;
       border-color: white;
       transition: 0.3s;
@@ -414,6 +414,6 @@ body {
     .link4:hover{
       color: #D9D9D9;
       background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-      transform: rotate(1720deg);
+      transform: rotate(360deg);
       transition: 0.8s;
     }
