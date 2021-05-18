@@ -43,7 +43,7 @@
     </div>
     
     <h2>Zadanie 2</h2>
-    <div class="container b">
+    <div class="container2">
         <div class="prostokat">
         <div class="pierwsze">
             <div class = "link2">opcja 4</div>
@@ -53,7 +53,7 @@
         </div>
     </div>
     <h2>Zadanie 3</h2>
-    <div class="container c">
+    <div class="container3">
         <div class="prostokat">
         <div class="drugie">
             <div class = "link3">opcja 7</div>

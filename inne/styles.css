@@ -204,7 +204,7 @@ body {
     background-color: #6a2247;
         width: 500px;
         height: 300px;
-        margin: 10px;
+        justify-content: flex-start;
     }
 
     .pierwsze{
@@ -224,21 +224,24 @@ body {
     }
 
 
-    .b {
-      display: flex;
+    .container2 {
+      background-color: #6a2247;
+      width: 500px;
+      height: 300px;
       justify-content: flex-end;
     }
     
-    .c {
-      display: flex;
+    .container3 {
       align-items: flex-end;
+      background-color: #6a2247;
+      width: 500px;
+      height: 300px;
     }
-    
+
     .container4 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       align-items: flex-end;
       justify-content: flex-end;
@@ -246,18 +249,16 @@ body {
     
     .container5 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
     }
     
     .container6 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -265,9 +266,8 @@ body {
     
     .container7 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
       align-items: flex-end;
@@ -275,26 +275,23 @@ body {
     
     .container8 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
     }
     
     .container9 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;  
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
     }
     
     .container10 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;    
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -302,9 +299,8 @@ body {
     
     .container11 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
       justify-content: center;
       align-items: flex-end;
@@ -312,9 +308,8 @@ body {
     
     .container12 {
       background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+      width: 500px;
+      height: 300px;
       display: flex;
     }
     
@@ -327,8 +322,8 @@ body {
     
     .prostokat {
       background-color: #dfadbd;
-      width: 200px;
-      height: 100px;
+      width: 180px;
+      height: 300px;
       margin: 10px;
       display: flex;
       align-items: center;
