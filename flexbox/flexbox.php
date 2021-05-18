@@ -46,9 +46,9 @@
     <div class="container2">
         <div class="prostokat">
         <div class="pierwsze">
-            <div class = "link2">orzechy</div>
-            <div class = "link2">pomarańcza</div>
-            <div class = "link2">brzoskwinia</div>
+            <div class = "link2">orzech</div>
+            <div class = "link2">kiwi</div>
+            <div class = "link2">mango</div>
             </div>
         </div>
     </div>
