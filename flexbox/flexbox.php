@@ -34,7 +34,7 @@
 <h2>Zadanie 1</h2>
     <div class=" container">
         <div class="prostokat">
-        <div class=" container">
+        <div class="pierwsze">
             <div class = "link1">opcja 1</div>
             <div class = "link1">opcja 2</div>
             <div class = "link1">opcja 3</div>
@@ -43,9 +43,9 @@
     </div>
     
     <h2>Zadanie 2</h2>
-    <div class="container2">
+    <div class="container b">
         <div class="prostokat">
-        <div class=" container">
+        <div class="pierwsze">
             <div class = "link2">opcja 4</div>
             <div class = "link2">opcja 5</div>
             <div class = "link2">opcja 6</div>
@@ -53,9 +53,9 @@
         </div>
     </div>
     <h2>Zadanie 3</h2>
-    <div class="container3">
+    <div class="container c">
         <div class="prostokat">
-        <div class=" container">
+        <div class="drugie">
             <div class = "link3">opcja 7</div>
             <div class = "link3">opcja 8</div>
             <div class = "link3">opcja 9</div>
@@ -65,7 +65,7 @@
     <h2>Zadanie 4</h2>
     <div class="container4">
         <div class="prostokat">
-        <div class=" container">
+        <div class="drugie">
             <div class = "link4">opcja 10</div>
             <div class = "link4">opcja 11</div>
             <div class = "link4">opcja 12</div>

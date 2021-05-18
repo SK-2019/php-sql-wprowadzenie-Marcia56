@@ -202,24 +202,34 @@ body {
   /* flexboxy */
   .container{
     background-color: #6a2247;
-        width: 30%;
-        height: 140px;
+        width: 500px;
+        height: 300px;
         margin: 10px;
     }
-    .container2 {
-      background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+
+    .pierwsze{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      justify-content: space-around;
+      align-self: center;
+      flex-direction: row;
+    }
+
+    .drugie{
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+    }
+
+
+    .b {
       display: flex;
       justify-content: flex-end;
     }
     
-    .container3 {
-      background-color: #6a2247;
-      width: 30%;
-      height: 140px;
-      margin: 10px;
+    .c {
       display: flex;
       align-items: flex-end;
     }
@@ -317,8 +327,8 @@ body {
     
     .prostokat {
       background-color: #dfadbd;
-      width: 100px;
-      height: 60px;
+      width: 200px;
+      height: 100px;
       margin: 10px;
       display: flex;
       align-items: center;
