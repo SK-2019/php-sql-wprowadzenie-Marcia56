@@ -317,8 +317,8 @@ body {
     
     .kwadrat {
       background-color: #dfadbd;
-      width: 40px;
-      height: 40px;
+      width: 180px;
+      height: 180px;
       margin: 5px;
     }
     
@@ -367,7 +367,7 @@ body {
     
     }
     .link2:hover{
-      color: #550f66;
+      color: #cfcfcf;
       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,1) 19%, rgba(0,212,255,1) 43%, rgba(0,255,102,1) 61%, rgba(0,212,255,1) 88%);
       height: 70px;
       border-style: solid;
